@@ -7,7 +7,6 @@ body {
 	font-size: 18px;
 	background-image: url("img/kids.jpg");
 	font-family: arial;
-
 }
 #logo{
 	float: left;
@@ -17,7 +16,6 @@ body {
 	margin-left: 30px;
 	clear: both;
 }
-
 nav{
 	background-color: #000;
     font-family: Arial;
@@ -26,12 +24,10 @@ nav{
 	width: 100%;
 	padding: 20px 0px;
 }
-
 ul li {
 	display: inline;
 	color: #fff;
 }
-
 ul li a {
 	color: #fff;
 	text-decoration: none;
@@ -40,21 +36,25 @@ ul li a {
 a:hover{
 	text-decoration: underline;
 }
-
-#big_text span{
-	font-weight: bolder;
-	font-size: 40px;
-	padding-left: 50px;
+#button{
+	display: inline-block;
+	padding: 0.5em;
+	padding-bottom: 5px;
+	margin-left:300px ;
+	background-color: #FC7200;
+	border-radius: 5px;		
 }
 #big_text {
 	padding: 40px;
-	margin: 70px, 5px, 0px, 30px;
+	margin-left: 30px; 
+	margin-top:30px;
 	width: 400px;
 	font-size: 40px;
 	color: white;
 	opacity: 0.8;
 	text-align: left;
-	background-color: rgba(0,0,0,.75);	
+	background-color: rgba(0,0,0,.75);
+	display: block;
 }
 #mid_text{
 	padding: 10px;
@@ -68,20 +68,22 @@ a:hover{
 	background-color: rgba(255,255,255,.75);
 }
 
-#button{
-	display: inline-block;
-	padding: 0.5em;
-	padding-bottom: 5px;
-	margin-left:300px ;
-	background-color: #FC7200;
-	border-radius: 5px;		
+#big_text span{
+	font-weight: bolder;
+	font-size: 40px;
+	padding-left: 50px;
+	display:block;
+/*	float: left;*/
 }
-/*#footer{
+
+#footer{
+	margin-top:200px;
 	background-color: black;
  	position: relative;
  	width: 99%;
  	height: 100px; 
  	bottom: 0;
+ 	display: block;
 }
 #footer-wrapper{
 	width: 960px; 
@@ -105,4 +107,4 @@ a:hover{
 	color: #CCC; 
 	display: block; padding: 15px;
 	text-decoration: none;
-}*/
+}
