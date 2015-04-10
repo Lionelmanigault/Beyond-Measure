@@ -1,6 +1,9 @@
-html{
-	background-image: url("img/tweed_@2X.png")
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;background-image: url("img/tweed_@2X.png")
 }
+
 
 #logo{
 	float: left;
@@ -35,12 +38,52 @@ a:hover{
 	display: inline-block;
 	padding: 0.5em;
 	padding-bottom: 5px;
-	margin-left:750px ;
+	margin-left:50% ;
 	background-color: #FC7200;
 	border-radius: 5px;		
 }
-
+footer{
+	margin:0 auto;
+	text-align: left;
+}
 #footer{
+	background-color: black;
+ 	width: 100%;
+ 	height: 150px; 
+ 	bottom: 0;
+ 	display: block;
+ 	float: left; 
+}
+#footer-wrapper{
+	width: 100%;
+	margin: 20px;
+	text-align: left;
+/*	padding-left: 100px;*/
+}
+#footer ul{
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+}
+#footer ul li{
+	padding-bottom: 10px;
+	display: inline-block;
+ }
+
+#footer ul li:hover{
+	background-color: #333;
+}
+
+#footer ul li a:visited{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+.icons{
+	margin-left:40px;
+}
+
+/*#footer{
 	margin-top:1%;
 	background-color: black;
  	position: relative;
@@ -72,7 +115,7 @@ a:hover{
 	color: #CCC; 
 	display: block; padding: 15px;
 	text-decoration: none;
-}
+}*/
 
 body {
 	font-family: arial;
@@ -93,7 +136,8 @@ h2{
 }
 
 body {
-  font: 14px/1.4 arial;
+  font-family: arial;
+	font-size: 18px;
 }
 
 ul.img-list {
