@@ -2,14 +2,10 @@
 	background-color: black;
  	position: relative;
  	width: 99%;
- 	height: 100px; 
+ 	height: 110px; 
  	bottom: 0;
  }
 
-
-	{background-image: url("https://i.imgur.com/sK4yizb.jpg");
-	background-size: 80%;
-}
 
 #footer-wrapper{
 	width: 960px; 
@@ -38,4 +34,11 @@
 body {
 	font-family: arial;
 	font-size: 18px;
+}
+
+h2{
+	text-align: center;
+	margin: 0 auto;
+	color: #fff;
+
 }
