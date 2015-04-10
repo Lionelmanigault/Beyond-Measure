@@ -7,11 +7,6 @@
  	bottom: 0;
  	display: block;
  }
-#serv{
-	width:30%;
-	height:30%;
-}
-
 
 #footer-wrapper{
 	width: 960px; 
@@ -108,40 +103,3 @@ span.text-content {
 ul.img-list li:hover span.text-content {
   opacity: 1;
 }
-
-/*.imgWrap img{
-	width: 30%;
-	height: 50%;
-	float: left;
-	margin: 10px;
-}
-.imgWrap {
-  position: relative;
-  height: 10%;
-  width: 100%;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.imgDescription {
-  position: absolute;
-  height: 90%;
-  width: 25%;
-  top: 0;
-  bottom: 0;
-  left: 0; 
-  right: 0;
-  background: rgba(29, 106, 154, 0.72);
-  color: #fff;
-  visibility: hidden;
-  opacity: 0;
-}
-
-
-.imgWrap:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
-}*/
-
