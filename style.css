@@ -4,10 +4,10 @@ html, body {
 	width: 100%;
 }
 body {
-	font-family: arial;
+	font-family: Arial;
 	font-size: 18px;
 	background-image: url("img/kids.jpg");
-	background-size: 100%;
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 #logo{
@@ -20,7 +20,6 @@ body {
 }
 nav{
 	background-color: #000;
-    font-family: Arial;
 	font-size: 18px;
 	height: 50px;
 	width: 100%;
