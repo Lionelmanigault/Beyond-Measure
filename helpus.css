@@ -1,0 +1,164 @@
+
+html{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url("img/inspiredchild.png");
+	height: 100px;
+	width: 100%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: Arial;
+	width: 100%;
+}	
+span{
+	color: #000;
+	opacity: .6;
+}
+.nav{
+	max-width: 100%;
+	background-color:#000;
+	height: 50px;
+}
+
+#logo{
+	float: left;
+	height: 75px;
+	padding-left: 0px;
+	border: 2px solid white;
+	margin-left: 30px;
+	clear: both;
+}
+
+ul li a {
+	color: #000;
+	text-decoration: none;
+	padding: 0px 25px;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+header {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	font-family: Arial;
+	padding: 50px;
+	border-color: #1ABC9C
+}
+header h1 {
+	text-align: center;
+	color: #EFEFEF;
+	font-size: 50px;
+	padding-bottom: 50px;
+	
+}
+.donator {
+	border: transparent;
+	border-color: #9B59B6;
+
+}
+
+.donator li {
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 50px;	
+}
+.donator ul {
+	text-align: center;
+	color: #EFEFEF;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.donator button {
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Arial;
+
+}
+.donator input {
+	margin: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+.contact-det {
+	text-align: center;
+	color: #ECF0F1;
+	font-size: 30px;
+}
+
+.contact-det h1{
+	margin-left: 50px;
+	margin-right: 50px;
+	color: #EFEFEF;
+
+}
+.Contact {
+	text-align: center;
+}
+
+.Contact li {
+	display: inline-block;
+	color: #ECF0F1;
+	font-family: Arial;
+	margin-right: 50px;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.Contact img {
+	display: block;
+	margin: 0px auto;
+}
+footer{
+	margin:0 auto;
+	text-align: left;
+}
+#footer{
+	background-color: black;
+ 	width: 100%;
+ 	height: 150px; 
+ 	bottom: 0;
+ 	display: block;
+ 	float: left; 
+}
+#footer-wrapper{
+	width: 100%;
+	margin: 20px;
+	text-align: left;
+/*	padding-left: 100px;*/
+}
+#footer ul{
+	list-style-type: none; 
+	padding: 0;
+	margin: 0;
+}
+#footer ul li{
+	padding-bottom: 10px;
+	display: inline-block;
+ }
+
+#footer ul li:hover{
+	background-color: #333;
+}
+
+#footer ul li a:visited{
+	color: #CCC; 
+	display: block; 
+	text-decoration: none;
+}
+.icons{
+	margin-left:40px;
+}
+
+	
+
+
+
