@@ -6,7 +6,7 @@ html{
 
 body {
 	margin: 0px;
-	padding: 0px;
+	padding: 0px;	
 	background-image: url("img/inspiredchild.png");
 	height: 100px;
 	width: 100%;
@@ -19,10 +19,13 @@ span{
 	color: #000;
 	opacity: .6;
 }
-.nav{
-	max-width: 100%;
-	background-color:#000;
+nav{
+	background-color: #000;
+    font-family: Arial;
+	font-size: 18px;
 	height: 50px;
+	width: 100%;
+	padding: 20px 0px;
 }
 
 #logo{
@@ -34,13 +37,26 @@ span{
 	clear: both;
 }
 
-ul li a {
-	color: #000;
+nav ul li {
+	display: inline;
+	color: #fff;
+}
+
+nav ul li a {
+	color: #fff;
 	text-decoration: none;
 	padding: 0px 25px;
 }
 a:hover{
 	text-decoration: underline;
+}
+#button{
+	display: inline-block;
+	padding: 0.5em;
+	padding-bottom: 5px;
+	margin-left:300px ;
+	background-color: #FC7200;
+	border-radius: 5px;		
 }
 
 header {
@@ -117,10 +133,12 @@ header h1 {
 	display: block;
 	margin: 0px auto;
 }
+
 footer{
 	margin:0 auto;
 	text-align: left;
-}
+	}
+
 #footer{
 	background-color: black;
  	width: 100%;
